@@ -10,37 +10,50 @@
 <body>
     <h1> Formulario</h1>
     <section class="form-register">
-    <div class="col-md-6">
-        <label for="inputNombre4" class="form-label"> Nombre</label>
-        <input type="Nombre" class="form-control" id="inputNombre4" placeholder="Escriba su nombre">
-    </div>
-    <div class="row g-3">
-        <label for="inputApellidos4" class="form-label"> Apellidos</label>
-        <input type="Apellidos" class="form-control" id="inputApellidos4" placeholder="Escriba sus apellidos">
-    </div>
-        <label for="inputCorreo electrónico4" class="form-label"> Correo electrónico</label>
-        <input type="Correo electrónico" class="form-control" id="inputCorreo electrónico" placeholder="Escriba su correo electrónico">
-    <div>
-        <label for="inputEdad4" class="form-label"> Edad</label>
-        <input type="Edad" class="form-control" id="inputEdad" placeholder="Escriba su edad">
-    </div>
-    <div>
-        <label for="inputSexo4" class="form-label"> Sexo</label>
-        <select name="Sexo">
-            <option value="Hombre"> Hombre</option>
-            <option value="Mujer"> Mujer</option>
-        </select>
-    </div>
-    <div>
-        <label for="inputNº de teléfono4" class="form-label"> Nº de teléfono</label>
-        <input type="Nº de teléfono" class="form-control" id="inputNº de teléfono" placeholder="Escriba su Nº de teléfono">
-    </div>
-    <div>
-        <label for="input¿Dónde vives?4" class="form-label"> ¿Dónde vives?</label>
-        <input type="Nº de teléfono" class="form-control" id="input¿Dónde vives?">
-    </div>
-    <input type="submit" value="Enviar">
-    <input type="submit" value="Reset">
+        <div class="col-md-6">
+            <label for="inputNombre4" class="form-label"> Nombre</label>
+            <input type="Nombre" class="form-control" id="inputNombre4" placeholder="Escriba su nombre">
+        </div>
+        <div class="row g-3">
+            <label for="inputApellidos4" class="form-label"> Apellidos</label>
+            <input type="Apellidos" class="form-control" id="inputApellidos4" placeholder="Escriba sus apellidos">
+        </div>
+        <legend>Please select your preferred contact method:</legend>
+        <div>
+            <input type="radio" id="contactChoice1" name="contact" value="email" />
+            <label for="contactChoice1">Email</label>
+
+            <input type="radio" id="contactChoice2" name="contact" value="phone" />
+            <label for="contactChoice2">Phone</label>
+
+            <input type="radio" id="contactChoice3" name="contact" value="mail" />
+            <label for="contactChoice3">Mail</label>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div> type="Correo electrónico" class="form-control" id="inputCorreo electrónico" placeholder="Escriba su
+        correo electrónico">
+        <div>
+            <label for="inputEdad4" class="form-label"> Edad</label>
+            <input type="Edad" class="form-control" id="inputEdad" placeholder="Escriba su edad">
+        </div>
+        <div>
+            <label for="inputSexo4" class="form-label"> Sexo</label>
+            <select name="Sexo">
+                <option value="Hombre"> Hombre</option>
+                <option value="Mujer"> Mujer</option>
+            </select>
+        </div>
+        <div>
+            <label for="inputNº de teléfono4" class="form-label"> Nº de teléfono</label>
+            <input type="Nº de teléfono" class="form-control" id="inputNº de teléfono"
+                placeholder="Escriba su Nº de teléfono">
+        </div>
+        <div>
+            <label for="input¿Dónde vives?4" class="form-label"> ¿Dónde vives?</label>
+            <input type="Nº de teléfono" class="form-control" id="input¿Dónde vives?">
+        </div>
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Reset">
     </section>
 </body>
-
